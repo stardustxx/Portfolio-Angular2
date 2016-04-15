@@ -1,0 +1,8 @@
+<nav class="navbar navbar-fixed-top navbar-light bg-faded">
+  <a class="navbar-brand" href="#">sDust</a>
+  <ui class="nav navbar-nav pull-sm-right">
+    <li class="nav-item" *ngFor="#link of navLink">
+      <a href="#{{link}}" class="nav-link" [ngClass]="{'active': link == 'Home'}">{{link}}</a>
+    </li>
+  </ui>
+</nav>

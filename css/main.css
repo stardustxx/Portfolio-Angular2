@@ -1,0 +1,53 @@
+.top-bar img {
+  width: 20%; }
+
+.stage-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stage-1.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  max-width: 100%; }
+  .stage-1 .content {
+    max-width: 20em;
+    margin: 0 auto;
+    color: white;
+    margin-top: 6em;
+    text-align: center; }
+    .stage-1 .content h1 {
+      text-transform: uppercase;
+      font-size: 0.8em;
+      font-weight: 200; }
+    .stage-1 .content p {
+      font-size: 0.5em; }
+
+.stage-2 {
+  padding: 4em; }
+  .stage-2 .image-container {
+    max-width: 100%; }
+    .stage-2 .image-container img {
+      width: 100%; }
+
+.stage-project-1 {
+  background: #EF5350;
+  color: white;
+  padding: 4em 0; }
+  .stage-project-1 .project-1 .image img {
+    width: 70%; }
+
+.stage-project-2 {
+  padding: 4em 0;
+  background: #009688;
+  color: white; }
+  .stage-project-2 .project-2 .image {
+    margin-bottom: 24px; }
+    .stage-project-2 .project-2 .image img {
+      width: 100%; }
+
+.stage-project-3 {
+  padding: 4em 0;
+  background: #03A9F4;
+  color: white; }
+  .stage-project-3 .project-3 .image img {
+    width: 70%; }
+
+/*# sourceMappingURL=main.css.map */
