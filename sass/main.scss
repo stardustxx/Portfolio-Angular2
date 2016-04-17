@@ -34,10 +34,18 @@
   padding: 4em;
 
   .image-container {
-    max-width: 100%;
+    max-width: 18em;
 
     img {
       width: 100%;
+    }
+  }
+
+  .content-container {
+    margin: 2em 0;
+
+    h5 {
+      line-height: 1.8;
     }
   }
 }
